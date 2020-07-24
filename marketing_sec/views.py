@@ -11,7 +11,3 @@ def customer(request):
 
 def product(request):
     return render(request, 'products.html', {})
-
-def status(request):
-    return render(request, 'status.html', {})
-    
